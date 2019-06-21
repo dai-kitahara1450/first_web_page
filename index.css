@@ -1,12 +1,12 @@
 body {
-    font-family: arial;
+    font-family: sans-serif;
 }
 li {
     list-style: none;
     
 }
 .header {
-    background-color:#f7f2b4;
+    background-color:#06f5e1;
     height:90px;
 }
 .header-logo {
@@ -21,11 +21,16 @@ li {
 .main {
     padding: 100px 80px;
 }
+.copy-container {
+background-image: url("森.png")
+}
 .copy-container h1 {
     font-size: 140px;
+    color: rgb(245, 160, 3)
 }
 .copy-container h2 {
     font-size: 60px;
+    color: rgb(245, 160, 3)
 }
 .contents {
     height: 500px;
@@ -63,7 +68,7 @@ td {
     width: 30%;
 }
 .footer {
-    background-color:#2f5167;
+    background-color:#0295f7;
     color: #fff;
     height:120px;
     padding: 40px;
